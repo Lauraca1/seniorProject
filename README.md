@@ -1,4 +1,3 @@
 # seniorProject
-#(csc 491/492)
-#created by Laura Camacho
+created by Laura Camacho
 
