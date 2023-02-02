@@ -1,0 +1,6 @@
+// default.json
+
+{
+  "mongoURI": "mongodb+srv://seniorProj:seniorProj420@cluster0.gqloqp3.mongodb.net/?retryWrites=true&w=majority"
+}
+/* Replace <password> with your database password */
