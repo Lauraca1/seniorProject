@@ -1,19 +1,20 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import CreateBook from './components/CreateBook';
-import ShowBookList from './components/ShowBookList';
 import ShowBookDetails from './components/ShowBookDetails';
-import UpdateBookInfo from './components/UpdateBookInfo';
+
+import HomePage from './components/homePage';
+import LogInPage from './components/logIn';
+import SignUpPage from './components/createAccount';
 
 const App = () => {
     return (
         <Router>
             <div>
                 <Routes>
-                    <Route exact path='/' element={<ShowBookList />} />
-                    <Route path='/create-book' element={<CreateBook />} />
-                    <Route path='/edit-book/:id' element={<UpdateBookInfo />} />
+                    <Route exact path='/' element={<HomePage />} />
+                    <Route path='/log-in' element={<LogInPage />} />
+                    <Route path='/sign-up' element={<SignUpPage />} />
                     <Route path='/show-book/:id' element={<ShowBookDetails />} />
                 </Routes>
             </div>
