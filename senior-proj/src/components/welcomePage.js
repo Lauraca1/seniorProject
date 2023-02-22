@@ -1,26 +1,40 @@
 import React, { useState, useEffect } from 'react';
 import '../App.css';
 import axios from 'axios';
+import { NavLink } from 'react-router-dom'
 
-function ShowBookList() {
-    const [books, setBooks] = useState([]);
-
-    useEffect(() => {
-        axios
-            .get('http://localhost:8082/api/books')
-            .then((res) => {
-                setBooks(res.data);
-            })
-            .catch((err) => {
-                console.log('Error from ShowBookList');
-            });
-    }, []);
+function welcome() {
 
     return (
-        <div className='ShowBookList'>
+        <div className='standard'>
             <h1>hello world</h1>
+
+            <NavLink
+                className="navbar-item"
+                activeClassName="is-active"
+                to="/sign-up"
+                exact
+            >sign up
+            </NavLink>
+
+            <NavLink
+                className="navbar-item"
+                activeClassName="is-active"
+                to="/log-in"
+                exact
+            >log in
+            </NavLink>
+
+            <NavLink
+                className="navbar-item"
+                activeClassName="is-active"
+                to="/about"
+                exact
+            >about
+            </NavLink>
+
         </div>
     );
 }
 
-export default ShowBookList;
+export default welcome;
