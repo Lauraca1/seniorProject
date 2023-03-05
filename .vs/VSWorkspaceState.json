@@ -1,12 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\routes\\api",
     "\\senior-proj",
-    "\\senior-proj\\public",
     "\\senior-proj\\src",
     "\\senior-proj\\src\\components"
   ],
-  "SelectedNode": "\\senior-proj",
+  "SelectedNode": "\\senior-proj\\src\\components\\navbarElements.js",
   "PreviewInSolutionExplorer": false
 }
