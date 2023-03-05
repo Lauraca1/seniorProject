@@ -2,10 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\senior-proj",
-    "\\senior-proj\\public",
     "\\senior-proj\\src",
     "\\senior-proj\\src\\components"
   ],
-  "SelectedNode": "\\senior-proj\\src\\components\\deleteProfileSecurityCheck.js",
+  "SelectedNode": "\\senior-proj\\src\\components\\navbarElements.js",
   "PreviewInSolutionExplorer": false
 }

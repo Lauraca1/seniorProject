@@ -1,3 +1,4 @@
+import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 
@@ -22,12 +23,14 @@ import StoreFrontPage from './components/storeFront';
 import StoreFrontPageOther from './components/storeFrontOther';
 import WelcomePage from './components/welcomePage';
 
+import Navbar from './components/navbar';
 
 
 const App = () => {
     return (
         <Router>
             <div>
+                <Navbar />
                 <Routes>
                     <Route exact path='/' element={<WelcomePage />} />
                     <Route path='/home-page' element={<HomePage />} />

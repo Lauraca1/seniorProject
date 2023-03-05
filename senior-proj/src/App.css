@@ -43,13 +43,45 @@
     color: #221f1c;
 }
 
+.welcome {
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.butt {
+    display: flex;
+    justify-content: center;
+    //font-family: 'Fira Code', monospace;
+    color: #a6a2a4;
+    text-decoration: none;
+    //text-transform: uppercase;
+    //font-weight: bold;
+    background-color: #e8e6e7;
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+}
+
+    .butt:hover {
+        background-color: #4d9ef6;
+    }
+
 .navbar-item {
+    display: flex;
+    justify-content: center;
     color: #a6a2a4;
 }
 
     .navbar-item:hover {
         text-decoration: none;
-        background-color: #e8e6e7;
+        //background-color: #e8e6e7;
         color: #323131;
     }
 
